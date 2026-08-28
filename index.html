@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talk With HG - Premium Podcast</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    
+    <nav class="navbar reveal-nav">
+        <div class="logo">Talk With <span>HG</span></div>
+        <div class="nav-links">
+            <a href="#episodes">Episodes</a>
+            <a href="#about">About</a>
+            <a href="#testimonials">Reviews</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <button class="nav-btn">Subscribe</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section" id="home">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+
+        <div class="hero-container">
+            <div class="hero-content reveal-left">
+                <div class="badge">
+                    <span class="pulse"></span> Now Streaming Season 2
+                </div>
+                
+                <h1 class="main-title">Real Conversations.</h1>
+                <h2 class="sub-title">Inspiring Minds.</h2>
+                
+                <p class="hero-description">
+                    India's Next Generation Podcast featuring entrepreneurs, founders, innovators, and leaders sharing their real journeys and valuable life lessons.
+                </p>
+                
+                <div class="cta-group">
+                    <a href="#episodes" class="btn btn-primary">
+                        <i class="fas fa-play"></i> Watch Episodes
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-microphone"></i> Become a Guest
+                    </a>
+                </div>
+                
+                <div class="social-proof">
+                    <p>Available on all major platforms</p>
+                    <div class="platforms">
+                        <i class="fab fa-spotify"></i>
+                        <i class="fab fa-apple"></i>
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-google"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-image-container reveal-right">
+                <div class="image-wrapper">
+                    <img src="host_portrait.png" alt="Hemanth Grandhi - Podcast Host" class="host-image">
+                    <div class="floating-element el-1"><i class="fas fa-quote-right"></i></div>
+                    <div class="floating-element el-2"><i class="fas fa-headphones"></i></div>
+                </div>
+                
+                <div class="host-info">
+                    <h3 class="host-name">Hemanth Grandhi</h3>
+                    <div class="accent-line"></div>
+                    <span class="host-title">Host & Creator</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Recent Episodes Section -->
+    <section class="episodes-section" id="episodes">
+        <div class="section-container">
+            <div class="section-header reveal-up">
+                <h2 class="section-title">Latest <span>Episodes</span></h2>
+                <p class="section-subtitle">Dive into our most recent conversations with industry leaders.</p>
+            </div>
+            
+            <div class="episodes-grid">
+                <!-- Episode 1 -->
+                <div class="episode-card reveal-up" style="transition-delay: 0.1s;">
+                    <div class="episode-image-placeholder">
+                        <i class="fas fa-play-circle play-icon"></i>
+                        <span class="duration">45:20</span>
+                    </div>
+                    <div class="episode-content">
+                        <span class="episode-tag">Technology</span>
+                        <h3 class="episode-title">The Future of AI in Startup Ecosystems</h3>
+                        <p class="episode-desc">Exploring how artificial intelligence is reshaping early-stage startups and investment strategies.</p>
+                        <div class="episode-footer">
+                            <span class="date">Oct 24, 2026</span>
+                            <a href="#" class="listen-link">Listen Now <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Episode 2 -->
+                <div class="episode-card reveal-up" style="transition-delay: 0.2s;">
+                    <div class="episode-image-placeholder">
+                        <i class="fas fa-play-circle play-icon"></i>
+                        <span class="duration">52:10</span>
+                    </div>
+                    <div class="episode-content">
+                        <span class="episode-tag">Leadership</span>
+                        <h3 class="episode-title">Building Resilient Teams Remote</h3>
+                        <p class="episode-desc">A deep dive into managing distributed teams and fostering a strong company culture remotely.</p>
+                        <div class="episode-footer">
+                            <span class="date">Oct 17, 2026</span>
+                            <a href="#" class="listen-link">Listen Now <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Episode 3 -->
+                <div class="episode-card reveal-up" style="transition-delay: 0.3s;">
+                    <div class="episode-image-placeholder">
+                        <i class="fas fa-play-circle play-icon"></i>
+                        <span class="duration">38:45</span>
+                    </div>
+                    <div class="episode-content">
+                        <span class="episode-tag">Finance</span>
+                        <h3 class="episode-title">Venture Capital Realities in 2026</h3>
+                        <p class="episode-desc">An honest conversation about raising capital and navigating the current economic landscape.</p>
+                        <div class="episode-footer">
+                            <span class="date">Oct 10, 2026</span>
+                            <a href="#" class="listen-link">Listen Now <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="center-btn reveal-up">
+                <a href="#" class="btn btn-secondary">View All Episodes</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="glow glow-3"></div>
+        <div class="section-container about-grid">
+            <div class="about-image-container reveal-left">
+                <!-- Reusing host portrait for about section -->
+                <div class="about-image-wrapper">
+                    <img src="host_portrait.png" alt="Hemanth Grandhi" class="about-image">
+                    <div class="image-border"></div>
+                </div>
+            </div>
+            
+            <div class="about-content reveal-right">
+                <h2 class="section-title">Behind the <span>Mic</span></h2>
+                <h3 class="about-subtitle">Meet Hemanth Grandhi</h3>
+                <p>
+                    What started as a simple curiosity has evolved into one of India's fastest-growing business podcasts. Talk With HG is built on a single premise: to extract the unfiltered truth behind success.
+                </p>
+                <p>
+                    With a background in technology and a passion for storytelling, I sit down with visionaries to deconstruct their playbooks. No fluff, no PR scripts—just real conversations designed to provide actionable value for the next generation of builders and thinkers.
+                </p>
+                
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <h4 class="stat-number">50+</h4>
+                        <span class="stat-label">Episodes</span>
+                    </div>
+                    <div class="stat-item">
+                        <h4 class="stat-number">100k+</h4>
+                        <span class="stat-label">Listeners</span>
+                    </div>
+                    <div class="stat-item">
+                        <h4 class="stat-number">4.9</h4>
+                        <span class="stat-label">Average Rating</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section" id="testimonials">
+        <div class="section-container">
+            <div class="section-header center reveal-up">
+                <h2 class="section-title">What <span>Listeners</span> Say</h2>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card reveal-up" style="transition-delay: 0.1s;">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p class="quote-text">"The most insightful podcast for aspiring founders. Hemanth asks the questions everyone is thinking but no one dares to ask."</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">S</div>
+                        <div class="reviewer-info">
+                            <h4>Sarah J.</h4>
+                            <span>Startup Founder</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card reveal-up" style="transition-delay: 0.2s;">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p class="quote-text">"Premium production quality paired with exceptional guests. Talk With HG is a masterclass in modern interviewing."</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">R</div>
+                        <div class="reviewer-info">
+                            <h4>Rahul M.</h4>
+                            <span>Product Manager</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card reveal-up" style="transition-delay: 0.3s;">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p class="quote-text">"I look forward to every new episode. The depth of conversation and the actionable takeaways are unmatched in the industry."</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">A</div>
+                        <div class="reviewer-info">
+                            <h4>Ananya P.</h4>
+                            <span>Venture Capitalist</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <div class="logo">Talk With <span>HG</span></div>
+                <p class="footer-desc">Real conversations. Inspiring minds. Join us on the journey of discovery.</p>
+                <div class="footer-socials">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#episodes">All Episodes</a></li>
+                    <li><a href="#about">About Host</a></li>
+                    <li><a href="#testimonials">Reviews</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-newsletter">
+                <h4>Stay Updated</h4>
+                <p>Get notified about new episodes and exclusive insights.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Talk With HG. All rights reserved.</p>
+            <div class="footer-legal">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
