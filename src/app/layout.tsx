@@ -5,8 +5,9 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 const outfit = Outfit({ subsets: ['latin'], variable: '--font-outfit' });
 
-// Use an environment variable for the site URL, fallback to Vercel for production
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://talk-with-hg.vercel.app';
+import { SITE_URL } from '@/lib/constants';
+
+const siteUrl = SITE_URL;
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
