@@ -45,6 +45,7 @@ export default function TalkWithHGLayout({ children }: { children: ReactNode }) 
   return (
     <>
       <Head>
+        <meta name="google-site-verification" content="sBB3tfuydOSKB7guG0UbRhZQh0B3lM7g0OyB1rC5-jg" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       </Head>
       <Navbar />
